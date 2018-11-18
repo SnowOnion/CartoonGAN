@@ -1,3 +1,4 @@
+
 # CartoonGAN
 
 Torch implementation for [Yang Chen, Yu-Kun Lai, Yong-Jin Liu. CartoonGAN: Generative Adversarial Networks for Photo Cartoonization](http://cg.cs.tsinghua.edu.cn/people/~Yongjin/CartoonGan-CVPR2018.pdf), CVPR2018
@@ -51,6 +52,8 @@ DATA_ROOT=./datasets/<your data> name=<your name> init_model=<path to your init 
 ```
 
 ## Test
+- Dataset:
+Prepare your datasets in ./datasets/<your test data>, it should have subfolders `test_A`
 ```bash
 DATA_ROOT=./datasets/<your test data> name=<your name> model=one_direction_test phase=test loadSize=256 fineSize=256 resize_or_crop="scale_width" th test.lua
 ```
@@ -59,3 +62,5 @@ DATA_ROOT=./datasets/<your test data> name=<your name> model=one_direction_test 
 - My email: chenyang15@mails.tsinghua.edu.cn can NOT send emails because of my graduation, and it won't be able to receive email very soon (maybe I have already missed some emails). So please contact me by cylily93@gmail.com.
 - In fact I didn't mean to clean up the code before because of laziness  `_(:з」∠)_`, but after receiving several contact asking me about the reproduction, I decided to clean them up to avoid "rebuilding the wheel".
 - I hope this code can speed up your work ~
+- 发现我这个作者的代码的星星在GitHub里CartoonGAN相关项目里才排第5啊`_(:з」∠)_`，而且和前面的差好远`_(:з」∠)_`我唯一一个有可能有星星的项目啊`_(:з」∠)_`哭`o(╥﹏╥)o`
+
